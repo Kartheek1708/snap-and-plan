@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 
 from prompts import SUMMARY_REQUEST_PROMPT, SYSTEM_PROMPT, WELCOME_MESSAGE_TEMPLATE
 
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-2.5-flash-lite"
 st.set_page_config(page_title="SnapPlan", page_icon="📅")
 
 GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
